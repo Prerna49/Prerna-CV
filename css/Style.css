@@ -1,0 +1,255 @@
+body {
+  font-family: "Merriweather";
+  text-align: center;
+}
+
+h1 {
+  font-family: Sacramento;
+  font-size: 7rem;
+  line-height: 1.5;
+  padding-top: 2.5rem
+}
+
+p, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather";
+  color: #CC0E74;
+}
+.logo{padding-top: 2rem; padding-bottom: 1rem;}
+/* Headings */
+.big-heading {
+  font-family: "Merriweather-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading1 {
+  text-align: center;
+  font-family: "Sacramento";
+  font-size: 5rem;
+  line-height: 1.5rem
+}
+.section-heading:hover{font-size: 5rem;}
+.section-heading {
+  text-align: left;
+  padding-left: 2rem;
+  font-family: "Sacramento";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading2:hover{font-size: 5rem;}
+.section-heading2 {
+  text-align: right;
+  padding-right: 2rem;
+  font-family: "Sacramento";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 5% 3%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #F4AEA9;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #FCEEED;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Merriweather-Bold";
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title {
+  background-color: #FFAAA5;
+}
+
+#title .container-fluid {
+  padding: 3% 10% 0;
+}
+
+#head {
+  background-color: #FFB2A7;
+}
+
+/* Title Image */
+title-image {
+  width: 60%;
+  float: right;
+  padding-right: 5rem;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 2rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.thumbnail {
+  margin-bottom: 1rem;
+}
+
+.text1 {
+  color: #CC0E74;
+  font-size: 1rem;
+  padding: 1.5rem 0;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #F4AEA9;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.text {
+  color: #CC0E74;
+  font-size: 1.7rem;
+  padding: 2rem 7rem;
+  line-height: 3rem;
+}
+
+#testimonial-carousel .carousel-item {
+  height: 50rem;
+}
+
+.test-image {
+  height: 20rem;
+}
+
+#aboutMe h3 {
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.aboutMe-img {
+  float: right;
+  padding: 0 2rem;
+  height: 18em;
+  width: auto;
+}
+
+.aboutMe-text {
+  padding: 2rem;
+  text-align: left;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+}
+
+#sub-section .container-fluid {
+  padding-top: 2rem;
+}
+
+#sub-section h3 {
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.chem-img {
+  float: left;
+  padding: 0 2rem;
+  height: 20em;
+}
+
+.education-text {
+  padding: 2rem;
+  text-align: right;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+#sub-section2 h3 {
+  text-align: left;
+  padding-left: 2rem;
+}
+
+#Projects {
+  background-color: #F4AEA9;
+}
+
+#Projects h2 {
+  text-align: center;
+  font-family: "Sacramento";
+font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 2rem;
+  padding-bottom: 0;
+  padding-top: 7rem;
+}
+
+.price-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.card-header {
+  background-color: #ffffff;
+}
+
+/* CTA Section */
+/* Footer Section */
+.CV{color:#FFB2A7; font-size: 1.5rem;line-height: 1.5rem;}
+.CV:hover{color:#CC0E74;}
+
+.social-icon {
+  margin: 30px;color:#FFB2A7;
+}
+.social-icon:hover{color:#CC0E74;}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .section-heading1{font-size:2.5rem;}
+  .aboutMe-img {
+    padding: 0 1rem;
+    height: 10em;
+    width: auto;
+  }
+.aboutMe-text {text-align: justify;}
+.education-text {text-align: justify;}
+  .chem-img {
+    padding: 0 1rem;
+    height: 14em;
+}
+.test-image {
+  height: 12rem;}
+  .text {
+    font-size: 1.2rem;line-height: 2rem;padding: 2rem;
+}
+#testimonial-carousel .carousel-item {
+  height: 35rem;
+}
+}
