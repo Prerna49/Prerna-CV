@@ -5,16 +5,16 @@ body {
 
 h1 {
   font-family: Sacramento;
-  font-size: 7rem;
-  line-height: 1.5;
-  padding-top: 2.5rem
+  font-size: 5rem;
+  line-height: 7rem;
+  padding-top: 1rem
 }
 
 p, h2, h3, h4, h5, h6 {
   font-family: "Merriweather";
   color: #CC0E74;
 }
-.logo{padding-top: 2rem; padding-bottom: 1rem;}
+.logo{padding-top: 1rem; padding-bottom: 1rem;}
 /* Headings */
 .big-heading {
   font-family: "Merriweather-Bold";
@@ -83,7 +83,8 @@ p, h2, h3, h4, h5, h6 {
 
 /* Title Section */
 #title {
-  background-color: #FCEEED;
+  background-color: #FCEEED
+;
 }
 
 #title .container-fluid {
@@ -197,7 +198,7 @@ title-image {
 }
 
 #Projects {
-  background-color: #F4AEA9;
+  background-color: #FCEEED;
 }
 
 #Projects h2 {
